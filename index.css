@@ -1,6 +1,8 @@
 :root {
     --color-primary: #f4f4f4;
-    --color-secondary: #3e5f8a;
+    --color-button: #3e5f8a;
+    --color-button-dark: #1a315f;
+    --color-secondary: #151c47;
     --color-text: #000000;
     --color-text-highlighted: #7d4497;
 }  
@@ -28,21 +30,54 @@ header {
 }
 
 .header_image {
-    padding: 2rem 0rem 0rem 0rem;
+    padding-top: 2rem;
     height: 10rem;
 }
 
 .header_title {
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
     font-size: 2.4em;
+    color: var(--color-primary);
 }
 
 .header_buttons {
     display: flex;
     flex-direction: column;
+    
 }
 
 .header_buttons--display {
-    padding: .5rem 3rem .5rem 3rem;
+    padding: .6rem 3rem .6rem 3rem;
     margin-bottom: 1rem;
+    border-radius: .5rem;
+    color: var(--color-primary);
+    font-size: 1.3em;
+    background-color: var(--color-button);
+    border-color: var(--color-button-dark);
+    cursor: pointer;
+    box-shadow: 0 0 0 var(--color-button-dark);
+}
+
+.header_buttons--display:hover {
+    box-shadow: .2rem .3rem .2rem var(--color-button-dark);
+}
+
+.header_social {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 2rem;
+    
+}
+
+.header_social_icons {
+    height: 2rem;
+    filter: brightness(0) invert(1);
+    padding: 0 1rem 0 1rem;
+}
+
+.header_social_icons--button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
 }
