@@ -1,0 +1,14 @@
+:root {
+    --color-primary: #f4f4f4;
+}  
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--color-primary);
+}
