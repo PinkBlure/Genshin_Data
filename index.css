@@ -54,7 +54,7 @@ body {
 }
 
 .header_button {
-    padding: .6rem 3rem .6rem 3rem;
+    padding: .6rem 4.5rem .6rem 4.5rem;
     margin-bottom: 1rem;
     border-radius: .5rem;
     color: var(--color-primary);
@@ -68,8 +68,9 @@ body {
     text-decoration: none;
 }
 
-.header_buttons:hover {
+.header_button:hover {
     box-shadow: .2rem .3rem .2rem var(--color-button-dark);
+    background-color: var(--color-text-highlighted);
 }
 
 .header_social_container {
@@ -213,4 +214,19 @@ body {
     text-align: center;
     color: var(--color-primary);
     font-size: 2em;
+}
+
+.article_link {
+    padding-top: .5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+}
+
+.article_link:hover {
+    background-color: var(--color-text-highlighted);
+    border-radius: 1rem;
+    box-shadow: .2rem .3rem .2rem var(--color-button-dark);
 }
