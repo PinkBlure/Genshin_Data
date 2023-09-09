@@ -18,7 +18,7 @@ body {
     background-color: var(--color-primary);
 }
 
-header {
+.header--box {
     background-color: var(--color-secondary);
     color: black;
     height: 100%;
@@ -80,4 +80,94 @@ header {
     border: none;
     cursor: pointer;
     outline: none;
+}
+
+.main--box {
+    margin-left: 25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.section--box {
+    margin: 0 2rem 2rem 3rem;
+    padding-top: 2rem;
+}
+
+.section_title {
+    display: flex;
+    flex-direction: row;
+}
+
+.section_title--image {
+    height: 5rem; 
+}
+
+.section_title--text {
+    line-height: 5rem;
+    padding-left: 2rem;
+    font-weight: 700;
+    font-size: 1.8em;
+    color: var(--color-secondary);
+}
+
+.section_article--box {
+    padding-top: 2rem;
+    padding-left: 7rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.article_card {
+    width: 25rem;
+    height: 35rem;
+    background-color: var(--color-button);
+    border: 2px solid var(--color-button-dark); 
+    margin: 0 2rem 2rem 0;
+}
+
+.article_header {
+    position: relative;
+    width: 100%;
+}
+
+.article_header--image_banner {
+    width: 100%;
+    display: block;
+}
+
+.article_header--text {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    padding-left: 2rem;
+    line-height: 3rem;
+    color: var(--color-primary);
+    font-size: 1.4em;
+}
+
+.article_bg {
+    position: relative;
+    width: 100%;
+}
+
+.article_header--image_icon {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    height: 10rem;
+    right: 0;
+    padding: .7rem 1rem 0 1rem;
+}
+
+.article_header--image_bg {
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.article_description {
+    margin: 13rem 1.5rem 0 1.5rem;
+    color: var(--color-primary);
+    font-weight: lighter;
 }
