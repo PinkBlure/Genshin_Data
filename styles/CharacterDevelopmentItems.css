@@ -45,4 +45,7 @@
     border: 2px solid var(--color-primary);
     margin: .5rem .5rem .5rem .5rem;
     box-shadow: .2rem .3rem .2rem var(--color-button-dark);
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
 }
