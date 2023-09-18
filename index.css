@@ -1,13 +1,13 @@
 :root {
-    --color-primary: #f4f4f4;
-    --color-button: #3e5f8a;
-    --color-button-dark: #1a315f;
-    --color-secondary: #151c47;
-    --color-text: #000000;
-    --color-text-highlighted: #7d4497;
-} 
-
-/*
+    --color-white: #f4f4f4;
+    --color-denim: #6F8FAF;
+    --color-pastel_blue: #A7C7E7;
+    --color-glaucous: #6082B6;
+    --color-blue_gray: #7393B3;
+    --color-steel_blue: #4682B4;
+    --color-black: #000000;
+    --color-navy_blue: #000080;
+}
 
 * {
     padding: 0;
@@ -17,20 +17,44 @@
 }
 
 body {
-    background-color: var(--color-primary);
+    background-color: var(--color-white);
 }
 
 .header_container {
-    background-color: var(--color-secondary);
-    color: black;
-    height: 100%;
-    width: 25rem;
+    background-color: var(--color-glaucous);
+    font-weight: bolder;
+    height: 4.5rem;
     position: fixed;
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    display: flex;  
+    flex-direction: row;
     align-items: center;
 }
 
+.header_link_container {    
+    margin-left: auto;
+    margin-right: 3em;
+}
+
+.header_link {
+    background-color: var(--color-glaucous);
+    color: var(--color-white);
+    padding: .5em 1em .5em 1em;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;  
+}
+
+.header_link:hover{
+    background-color: var(--color-pastel_blue);
+    color: var(--color-black);
+    border-radius: 1rem;
+    box-shadow: .2rem .2rem .2rem var(--color-navy_blue);
+}
+
+/*
 .header_image {
     padding-top: 2rem;
     height: 10rem;
