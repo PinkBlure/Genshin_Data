@@ -5,7 +5,9 @@
     --color-secondary: #151c47;
     --color-text: #000000;
     --color-text-highlighted: #7d4497;
-}  
+} 
+
+/*
 
 * {
     padding: 0;
@@ -229,4 +231,4 @@ body {
     background-color: var(--color-text-highlighted);
     border-radius: 1rem;
     box-shadow: .2rem .3rem .2rem var(--color-button-dark);
-}
+} */
