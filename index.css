@@ -1,12 +1,10 @@
 :root {
     --color-white: #f4f4f4;
-    --color-denim: #6F8FAF;
-    --color-pastel_blue: #A7C7E7;
-    --color-glaucous: #6082B6;
-    --color-blue_gray: #7393B3;
-    --color-steel_blue: #4682B4;
-    --color-black: #000000;
-    --color-navy_blue: #000080;
+    --color-base_green: #478778;
+    --color-special_green: #9FE2BF;
+    --color-icon_green: #2AAA8A;
+    --color-highlight_green: #008080;
+    --color-dark_green: #1C2322;
 }
 
 * {
@@ -20,6 +18,47 @@ body {
     background-color: var(--color-white);
 }
 
+.header_container {
+    background-color: var(--color-base_green);
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 .1rem .2rem var(--color-dark_green);
+}
+
+.link {
+    color: var(--color-white);
+    height: 3.9rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0 1.2em 0 1.2em;
+    font-size: 1.2em;
+    margin: 0 .5em 0 .5em;
+    line-height: 3.9rem;
+    border-radius: .5rem;
+}
+
+.link:hover {
+    background-color: var(--color-special_green);
+    color: var(--color-dark_green);
+}
+
+.link_container {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 2.8em;
+}
+
+.icon {
+    height: 3rem;
+    padding: .5em 4em .5em 4em;
+}
+
+/* 
 .header_container {
     background-color: var(--color-glaucous);
     font-weight: bolder;
@@ -52,7 +91,7 @@ body {
     color: var(--color-black);
     border-radius: 1rem;
     box-shadow: .2rem .2rem .2rem var(--color-navy_blue);
-}
+} */
 
 /*
 .header_image {
