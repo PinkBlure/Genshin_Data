@@ -58,6 +58,30 @@ body {
     padding: .5em 4em .5em 4em;
 }
 
+.body_container {
+    margin-bottom: 8rem;
+}
+
+.footer {
+    background-color: var(--color-dark_green);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 8rem;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer_link {
+    margin: 1em 6em 1em 6em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 /* 
 .header_container {
     background-color: var(--color-glaucous);
