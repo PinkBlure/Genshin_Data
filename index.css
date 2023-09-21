@@ -67,7 +67,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 8rem;
+    height: 6rem;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -80,6 +80,7 @@ body {
     outline: none;
     cursor: pointer;
     text-decoration: none;
+    height: 2.5rem;
 }
 
 /* 
