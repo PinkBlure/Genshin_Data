@@ -1,0 +1,237 @@
+    <!-- <header class="header_container">
+        <a class="header_image_link" href="./index.html">
+            <img class="header_image" src="./img/WebImage.webp" alt="Web Image" />
+        </a>
+        <h1 class="header_title">Genshin Data</h1>
+        <section class="header_buttons_container">
+            <a class="header_button" href="./src/Characters.html">Characters</a>
+            <a class="header_button" href="./src/InventoryIndex.html">Inventory</a>
+        </section>
+        <section class="header_social_container">
+            <a class="header_social_button" href="">
+                <img class="header_social_icon" src="./svg/github.svg" />
+            </a>
+            <a class="header_social_button" href="https://www.linkedin.com/in/aileen-padr%C3%B3n-torres-a7a876184">
+                <img class="header_social_icon" src="./svg/linkedin.svg" />
+            </a>
+        </section>
+    </header> -->
+<!--     
+    <main class="main_container">
+        <section class="section_container">
+            <div class="section_title_container">
+                <img class="section_icon" src="./img/Icons.webp" />
+                <h1 class="section_title">Daily Talent Books</h1>
+            </div>
+            <div class="article_container">
+                <section class="section_card">
+                    <article>
+                        <h1 class="article_day">Monday | Thursday</h1>
+                        <h2 class="article_title">Forsaken Rift</h2>
+                        <div class="article_item_container">
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#TeachingsOfFreedom">
+                                <img class="article_item" src="./img/TalentBooks/Monday/TeachingsOfFreedom.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#GuideToFreedom">
+                                <img class="article_item" src="./img/TalentBooks/Monday/GuideToFreedom.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#PhilosophiesOfFreedom">
+                                <img class="article_item" src="./img/TalentBooks/Monday/PhilosophiesOfFreedom.webp" />
+                            </a>
+                        </div>
+                        <h2 class="article_title">Taishan Mansion</h2>
+                        <div class="article_item_container">
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#TeachingsOfProsperity">
+                                <img class="article_item" src="./img/TalentBooks/Monday/TeachingsOfProsperity.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#GuideToProsperity">
+                                <img class="article_item" src="./img/TalentBooks/Monday/GuideToProsperity.webp" />
+                            </a>
+                            <a class="article_link"
+                                href="./src/CharacterDevelopmentItems.html#PhilosophiesOfProsperity">
+                                <img class="article_item"
+                                    src="./img/TalentBooks/Monday/PhilosophiesOfProsperity.webp" />
+                            </a>
+                        </div>
+                        <h2 class="article_title">Violet Court</h2>
+                        <div class="article_item_container">
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#TeachingsOfTransience">
+                                <img class="article_item--fix"
+                                    src="./img/TalentBooks/Monday/TeachingsOfTransience.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#GuideToTransience">
+                                <img class="article_item--fix" src="./img/TalentBooks/Monday/GuideToTransience.webp" />
+                            </a>
+                            <a class="article_link"
+                                href="./src/CharacterDevelopmentItems.html#PhilosophiesOfTransience">
+                                <img class="article_item"
+                                    src="./img/TalentBooks/Monday/PhilosophiesOfTransience.webp" />
+                            </a>
+                        </div>
+                        <h2 class="article_title">Steeple of Ignorance</h2>
+                        <div class="article_item_container">
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#TeachingsOfAdmonition">
+                                <img class="article_item" src="./img/TalentBooks/Monday/TeachingsOfAdmonition.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#GuideToAdmonition">
+                                <img class="article_item" src="./img/TalentBooks/Monday/GuideToAdmonition.webp" />
+                            </a>
+                            <a class="article_link"
+                                href="./src/CharacterDevelopmentItems.html#PhilosophiesOfAdmonition">
+                                <img class="article_item"
+                                    src="./img/TalentBooks/Monday/PhilosophiesOfAdmonition.webp" />
+                            </a>
+                        </div>
+                        <h2 class="article_title">Pale Forgotten Glory</h2>
+                        <div class="article_item_container">
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#TeachingsOfEquity">
+                                <img class="article_item" src="./img/TalentBooks/Monday/TeachingsOfEquity.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#GuideToEquity">
+                                <img class="article_item" src="./img/TalentBooks/Monday/GuideToEquity.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#PhilosophiesOfEquity">
+                                <img class="article_item" src="./img/TalentBooks/Monday/PhilosophiesOfEquity.webp" />
+                            </a>
+                        </div>
+                    </article>
+                </section>
+                <section class="section_card">
+                    <article>
+                        <h1 class="article_day">Tuesday | Friday</h1>
+                        <h2 class="article_title">Forsaken Rift</h2>
+                        <div class="article_item_container">
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#TeachingsOfResistance">
+                                <img class="article_item" src="./img/TalentBooks/Tuesday/TeachingsOfResistance.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#GuideToResistance">
+                                <img class="article_item" src="./img/TalentBooks/Tuesday/GuideToResistance.webp" />
+                            </a>
+                            <a class="article_link"
+                                href="./src/CharacterDevelopmentItems.html#PhilosophiesOfResistance">
+                                <img class="article_item"
+                                    src="./img/TalentBooks/Tuesday/PhilosophiesOfResistance.webp" />
+                            </a>
+                        </div>
+                        <h2 class="article_title">Taishan Mansion</h2>
+                        <div class="article_item_container">
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#TeachingsOfDiligence">
+                                <img class="article_item" src="./img/TalentBooks/Tuesday/TeachingsOfDiligence.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#GuideToDiligence">
+                                <img class="article_item" src="./img/TalentBooks/Tuesday/GuideToDiligence.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#PhilosophiesOfDiligence">
+                                <img class="article_item"
+                                    src="./img/TalentBooks/Tuesday/PhilosophiesOfDiligence.webp" />
+                            </a>
+                        </div>
+                        <h2 class="article_title">Violet Court</h2>
+                        <div class="article_item_container">
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#TeachingsOfElegance">
+                                <img class="article_item--fix"
+                                    src="./img/TalentBooks/Tuesday/TeachingsOfElegance.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#GuideToElegance">
+                                <img class="article_item--fix" src="./img/TalentBooks/Tuesday/GuideToElegance.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#PhilosophiesOfElegance">
+                                <img class="article_item" src="./img/TalentBooks/Tuesday/PhilosophiesOfElegance.webp" />
+                            </a>
+                        </div>
+                        <h2 class="article_title">Steeple of Ignorance</h2>
+                        <div class="article_item_container">
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#TeachingsOfIngenuity">
+                                <img class="article_item" src="./img/TalentBooks/Tuesday/TeachingsOfIngenuity.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#GuideToIngenuity">
+                                <img class="article_item" src="./img/TalentBooks/Tuesday/GuideToIngenuity.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#PhilosophiesOfIngenuity">
+                                <img class="article_item"
+                                    src="./img/TalentBooks/Tuesday/PhilosophiesOfIngenuity.webp" />
+                            </a>
+                        </div>
+                        <h2 class="article_title">Pale Forgotten Glory</h2>
+                        <div class="article_item_container">
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#TeachingsOfJustice">
+                                <img class="article_item" src="./img/TalentBooks/Tuesday/TeachingsOfJustice.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#GuideToJustice">
+                                <img class="article_item" src="./img/TalentBooks/Tuesday/GuideToJustice.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#PhilosophiesOfJustice">
+                                <img class="article_item" src="./img/TalentBooks/Tuesday/PhilosophiesOfJustice.webp" />
+                            </a>
+                        </div>
+                    </article>
+                </section>
+                <section class="section_card">
+                    <article>
+                        <h1 class="article_day">Wednesday | Saturday</h1>
+                        <h2 class="article_title">Forsaken Rift</h2>
+                        <div class="article_item_container">
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#TeachingsOfBallad">
+                                <img class="article_item" src="./img/TalentBooks/Wednesday/TeachingsOfBallad.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#GuideToBallad">
+                                <img class="article_item" src="./img/TalentBooks/Wednesday/GuideToBallad.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#PhilosophiesOfBallad">
+                                <img class="article_item" src="./img/TalentBooks/Wednesday/PhilosophiesOfBallad.webp" />
+                            </a>
+                        </div>
+                        <h2 class="article_title">Taishan Mansion</h2>
+                        <div class="article_item_container">
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#TeachingsOfGold">
+                                <img class="article_item" src="./img/TalentBooks/Wednesday/TeachingsOfGold.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#GuideToGold">
+                                <img class="article_item" src="./img/TalentBooks/Wednesday/GuideToGold.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#PhilosophiesOfGold">
+                                <img class="article_item" src="./img/TalentBooks/Wednesday/PhilosophiesOfGold.webp" />
+                            </a>
+                        </div>
+                        <h2 class="article_title">Violet Court</h2>
+                        <div class="article_item_container">
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#TeachingsOfLight">
+                                <img class="article_item--fix"
+                                    src="./img/TalentBooks/Wednesday/TeachingsOfLight.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#GuideToLight">
+                                <img class="article_item--fix" src="./img/TalentBooks/Wednesday/GuideToLight.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#PhilosophiesOfLight">
+                                <img class="article_item" src="./img/TalentBooks/Wednesday/PhilosophiesOfLight.webp" />
+                            </a>
+                        </div>
+                        <h2 class="article_title">Steeple of Ignorance</h2>
+                        <div class="article_item_container">
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#TeachingsOfPraxis">
+                                <img class="article_item" src="./img/TalentBooks/Wednesday/TeachingsOfPraxis.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#GuideToPraxis">
+                                <img class="article_item" src="./img/TalentBooks/Wednesday/GuideToPraxis.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#PhilosophiesOfPraxis">
+                                <img class="article_item" src="./img/TalentBooks/Wednesday/PhilosophiesOfPraxis.webp" />
+                            </a>
+                        </div>
+                        <h2 class="article_title">Pale Forgotten Glory</h2>
+                        <div class="article_item_container">
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#TeachingsOfOrder">
+                                <img class="article_item" src="./img/TalentBooks/Wednesday/TeachingsOfOrder.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#GuideToOrder">
+                                <img class="article_item" src="./img/TalentBooks/Wednesday/GuideToOrder.webp" />
+                            </a>
+                            <a class="article_link" href="./src/CharacterDevelopmentItems.html#PhilosophiesOfOrder">
+                                <img class="article_item" src="./img/TalentBooks/Wednesday/PhilosophiesOfOrder.webp" />
+                            </a>
+                        </div>
+                    </article>
+                </section>
+            </div>
+        </section>
+    </main> -->
