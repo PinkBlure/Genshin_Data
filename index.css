@@ -107,40 +107,40 @@
     margin-top: -17em;
 }
 
-.section_container {
-    background-color: var(--color-base_green);
-    height: fit-content;
-    width: 90rem;
-    color: var(--color-white);
-    margin: 20em auto 4em auto;
-    box-shadow: 0 .1rem .2rem var(--color-dark_green);
-    border: .1em solid var(--color-dark_green);
-    justify-self: center;
-    border-radius: 2rem;
-}
-
 body {
     background-color: var(--color-white);
 }
 
 /* Daily materials */
 
+.section_container {
+    background-color: var(--color-base_green);
+    height: fit-content;
+    width: 90rem;
+    color: var(--color-white);
+    margin: 18em auto 4em auto;
+    box-shadow: 0 .1rem .2rem var(--color-dark_green);
+    border: .1em solid var(--color-dark_green);
+    justify-self: center;
+    border-radius: 2rem;
+}
+
 .daily_container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1em 10em 4em 10em;
+    padding: 1em 12em 4em 12em;
 }
 
 .title {
     font-size: 2em;
-    padding: 2em 1em 1em 3em;
+    padding: 2em 1em 1em 4em;
 }
 
 .badge_container {
     display: flex;
     flex-direction: row;
-    padding: 1em 0 0 6em;
+    padding: 1em 0 1em 8em;
 }
 
 .badge {
