@@ -37,22 +37,25 @@
     border-radius: 1rem;
     box-shadow: 0 .1rem .2rem var(--color-dark_green);
     border: .1em solid var(--color-dark_green);
+    margin: 0 1em 2em 1em;
 }
 
 .image_container{
-    height: 31rem;
+    height: 30rem;
     width: 25.9rem;   
     background-color: var(--color-dark_green);
     border: .1em solid var(--color-dark_green);
+    display: flex;
+    flex-direction: row;
 }
 
 .text_container {
-    height: 3rem;
+    height: 4rem;
     width: 26rem;
     color: var(--color-white);
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
-    line-height: 3rem;
+    line-height: 4rem;
     display: flex;
     flex-direction: row;
     justify-content: center;   
@@ -73,6 +76,16 @@
 }
 
 .gacha_card {
-    height: 32rem;
+    height: 30rem;
     width: 13rem;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons_image {
+    height: 15rem;
+    width: 15rem;
 }
