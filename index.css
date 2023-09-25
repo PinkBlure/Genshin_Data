@@ -27,6 +27,7 @@
     box-shadow: 0 .1rem .2rem var(--color-dark_green);
     z-index: 2;
     position: fixed;
+    top: 0;
 }
 
 .link {
