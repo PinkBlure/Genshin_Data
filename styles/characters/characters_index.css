@@ -30,6 +30,14 @@
     line-height: 4rem;
 }
 
+.character_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90rem;
+    justify-content: center;
+}
+
 .card_container {
     background-color: var(--color-icon_green);
     width: 26rem;
@@ -38,6 +46,10 @@
     box-shadow: 0 .1rem .2rem var(--color-dark_green);
     border: .1em solid var(--color-dark_green);
     margin: 0 1em 2em 1em;
+}
+
+.card_container:hover {
+    background-color: var(--color-highlight_green);
 }
 
 .image_container{
@@ -88,4 +100,11 @@
 .icons_image {
     height: 15rem;
     width: 15rem;
+}
+
+.character_link {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
 }
