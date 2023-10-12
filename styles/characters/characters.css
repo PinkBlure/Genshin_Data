@@ -94,10 +94,91 @@
     border-radius: .5rem;
     box-shadow: 0 .1rem .2rem var(--color-dark_green);
     border: .1em solid var(--color-dark_green);
+    margin: 2em 0 2em 0;
+    padding-bottom: 1em;
+    align-items: center;
 }
 
 .ascension_title {
-    color: var(--color-white);
-    font-size: 2em;
+    color: var(--color-dark_green);
+    font-size: 3em;
     margin: .5em 0 .5em 0;
+    background-color: var(--color-special_green);
+    width: 40rem;
+    border-radius: .5rem;
+    box-shadow: 0 .1rem .2rem var(--color-dark_green);
+    border: .05em solid var(--color-dark_green);
+}
+
+.horizontal_container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 1rem 1rem 1rem;
+    align-items: center;
+}
+
+.icon_container {
+    background-color: var(--color-dark_green);
+    height: 12rem;
+    width: 9rem;
+    border-radius: .5rem;
+    box-shadow: 0 .1rem .2rem var(--color-dark_green);
+    border: .1em solid var(--color-dark_green);
+    padding: 1.5em 1em 1em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: .5em .75em 1em .75em;
+}
+
+.wide {
+    height: 18rem;
+    width: 14rem;
+}
+
+.image {
+    align-items: center;
+    background-color: var(--color-highlight_green);
+    height: 7rem;
+    width: 7rem;
+    border-radius: .5rem;
+    padding: 1em 1em 1em 1em;
+    margin-bottom: .5em;
+}
+
+.bigger {
+    height: 13rem;
+    width: 12rem;
+}
+
+.image:hover {
+    background-color: var(--color-icon_green);
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.text_container {
+    width: 8rem;
+    height: 2rem;
+    color: var(--color-white);
+    font-size: 1.8em;
+    line-height: 2em;
+}
+
+.gemstones {
+    width: 26rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 2em 0 2em;
+}
+
+.local {
+    width: 20rem;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 2em 0 2em;
 }
