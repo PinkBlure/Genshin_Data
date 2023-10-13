@@ -53,6 +53,10 @@
     color: var(--color-white);
 }
 
+.star_4 {
+    background-image: url("../../img/general/background/4star.webp");
+}
+
 .character_icon {
     height: 9.5rem;
     margin: 0 5rem 0 2rem;
