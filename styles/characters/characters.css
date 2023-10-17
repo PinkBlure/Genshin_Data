@@ -175,7 +175,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 2em 0 2em;
+    margin: 0 1em 0 1em;
+}
+
+.traveler {
+    width: 38rem;
 }
 
 .local {
@@ -184,5 +188,5 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 2em 0 2em;
+    margin: 0 1em 0 1em;
 }
