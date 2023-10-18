@@ -1,0 +1,38 @@
+/* General */
+
+:root {
+    --color-white: #f4f4f4;
+    --color-base_green: #478778;
+    --color-special_green: #9FE2BF;
+    --color-icon_green: #2AAA8A;
+    --color-highlight_green: #008080;
+    --color-dark_green: #1C2322;
+}
+
+.button_container {
+    margin: 8em 0 3.5em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.button {
+    margin: 1em 0 1em 0;
+    background-color: var(--color-icon_green);
+    height: 8rem;
+    width: 40rem;
+    font-size: 3em;
+    box-shadow: 0 .1rem .2rem var(--color-dark_green);
+    border: .1em solid var(--color-dark_green);
+    border-radius: .2em;
+    line-height: 8rem;
+    color: var(--color-white);
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: var(--color-highlight_green);
+}
