@@ -149,3 +149,7 @@
 .icon_image:hover {
     background-color: var(--color-highlight_green);
 }
+
+*[id] {
+    scroll-margin-top: 6em;
+}
