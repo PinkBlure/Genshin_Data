@@ -119,12 +119,14 @@
 /* Lista de personajes */
 
 .icon_container {
-    margin: 2em 1.5em;
+    margin: 2em 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     align-self: flex-end;
+    width: 100%;
 }
 
 .icon_link {
