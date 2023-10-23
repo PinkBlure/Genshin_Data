@@ -43,8 +43,9 @@
 
 .book_title {
     background-image: url("../../img/general/background/1stars_banner.png");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+    background-position: center;
     height: 3.5rem;
     color: var(--color-white);
     font-size: 1.5em;
@@ -133,8 +134,8 @@
 }
 
 .icon_image {
-    height: 5rem;
-    width: 5rem;
+    height: 5.5rem;
+    width: 5.2rem;
     background-color: var(--color-dark_green);
     border-radius: .5rem;
     border: .1em solid var(--color-dark_green);
