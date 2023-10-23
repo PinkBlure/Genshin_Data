@@ -1,0 +1,59 @@
+/* General */
+
+:root {
+    --color-white: #f4f4f4;
+    --color-base_green: #478778;
+    --color-special_green: #9FE2BF;
+    --color-icon_green: #2AAA8A;
+    --color-highlight_green: #008080;
+    --color-dark_green: #1C2322;
+    --color-background: #ece5d5;
+}
+
+.main_container {
+    margin-top: 8em;
+    margin-bottom: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 120rem;
+    flex-wrap: wrap;
+}
+
+.weapon_container {
+    display: flex;
+    flex-direction: row;
+    border: .2em solid var(--color-dark_green);
+    box-shadow: 0 .3rem .5rem var(--color-dark_green);
+    border-radius: 1em;
+    margin: 1em 2em 1em 2em;
+    background-color: var(--color-highlight_green);
+}
+
+.bow {
+    height: 35rem;
+    width: 22rem;
+}
+
+.weapon_container:hover {
+    background-color: var(--color-icon_green);
+}
+
+.weapon_image {
+    background-color: var(--color-dark_green);
+    padding: 1em 1.5em 1em 1.5em;
+    width: 15rem;
+}
+
+.star_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3em 1em 3em 1em;
+    align-items: center;
+}
+
+.star_icon {
+    height: 4rem;
+    width: 4rem;
+}
