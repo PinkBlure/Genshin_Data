@@ -30,7 +30,7 @@
 .book_container {
     background-color: var(--color-background);
     width: 24rem;
-    height: 58rem;
+    height: 140rem;
     border: .2em solid var(--color-dark_green);
     box-shadow: 0 .3rem .5rem var(--color-dark_green);
     display: flex;
